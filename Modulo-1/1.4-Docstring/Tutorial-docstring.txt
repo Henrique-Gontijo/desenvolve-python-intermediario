@@ -1,0 +1,44 @@
+    Neste arquivo detalharei como realizar a documentação de um código com
+DocString e como acessar a documentação de bibliotecas:
+
+
+    ==> Como acessar DocStrings?
+
+    Os Objetos Python (módulos, classes, métodos e funções) possuem o atri-
+buto __doc__, que contém a documentação do objeto. Sendo um atributo, pode-
+-se acessá-lo do seguinte modo: objeto.__doc__
+    Outra forma de acessar a documentação chamando a função nativa do py-
+thon help(), exemplo: help(módulo), help(módulo.função)
+
+
+    ==> Definição de DocStrings para módulos Python:
+
+    Para isso na primeira linha do arquivo (linhas comentadas não contam)
+escreva uma string com três aspas (duplas ou simples):
+
+    """Exemplo de documentação por DocString de Módulo."
+
+    É importante que seja uma descrição simples sobre o módulo em questão.
+
+    ==> Definição de DocStrings para funções Python:
+
+    Deve-se escrever uma string com três aspas novamente, porém a definição
+deve ser mais extensa, explicando os argumentos e o que a função faz. Na 
+primera linha é feita uma descrição sucinta da função (de preferência ocu-
+pando apenas uma linha), em seguida, sem fechar as aspas, salta-se uma li-
+nha para então escrever a explicação mais extensa:
+
+    """Explicação sucinta da funcionalidade da função
+
+        Explicação detalhada de argumentos/parânetros, funcionalidade, como 
+    deve ser utilizada, tipos de erros que podem ocorrer, e possibilidades 
+    de argumentos que podem ser passados.
+    """
+
+
+    ==> Gerando arquivo HTML da DocString:
+
+    Executando o comando: python3 -m pydoc -w módulo.função, o Python gera
+automaticamente um arquivo HTML documentando a função. ANTENÇÃO: o trecho:
+"python3 -m" é opcional, utilizado caso você tenha mais de um Python ins-
+lado na máquina.

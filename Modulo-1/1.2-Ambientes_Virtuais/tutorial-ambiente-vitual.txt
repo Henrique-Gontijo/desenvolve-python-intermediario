@@ -1,0 +1,8 @@
+Para gerar um ambiente virtual digite: python3 -m venv "Nome do ambiente"
+
+Para acessar o ambiente utilize o source e acesse o arquivo activate,
+exemplo:
+
+    source ambiente_virtual/bin/activate
+
+Para sair do ambiente virtual digite: deactivate
