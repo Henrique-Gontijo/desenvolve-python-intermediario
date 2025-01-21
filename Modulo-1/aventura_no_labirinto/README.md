@@ -8,11 +8,11 @@
     <h1 align=center> Aventura no Labirinto </h1>
     <p>Neste jogo seu objetivo é sair do labirinto, coletando tesouros com o menor número 
         de movimentos possíveis.</p>
-    <p>Este jogo é um trbalho prático do curso Projeto Desenvolve</p>
+    <p>Este jogo é um trabalho prático do curso Projeto Desenvolve</p>
     <h2>Como rodo o jogo?</h2>
     <p>Simples, na pasta raiz do jogo no terminal digite python3 main.py "nome do 
         labirinto"</p>
-    <p>Possímos 3 labirintos a sua disposição, sendo eles labirinto_pequeno, labirinto_medio 
+    <p>Possuímos 3 labirintos a sua disposição, sendo eles labirinto_pequeno, labirinto_medio 
         labirinto_grande.
     </p>
     <p>É importante que o terminal esteja em tela cheia para que a tela do jogo não fique quebrada</p>
