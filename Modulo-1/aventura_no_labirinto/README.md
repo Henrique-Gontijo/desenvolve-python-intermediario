@@ -20,13 +20,5 @@
     <p>Há algumas bibliotecas externas necessárias para execução do jogo que estão listadas em requirements.txt, para baixá-las digite pip install -r requirements.txt</p>
 
     <h2>Interface de CLI</h2>
-    <p>Através da interface de CLI você pode fazer várias mudanças como:</p>
-    <ul>
-        <li>Escolher labirinto</li>
-        <li>Escolher seu personagem</li>
-        <li>Trocar cor principal do jogo</li>
-        <li>Ativar modo demonstração</li>
-    </ul>
-    <p>Para obter detalhes digite python3 main.py -h</p>
 </body>
 </html>
