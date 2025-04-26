@@ -1,22 +1,27 @@
 <h1 align=center> Aventura no Labirinto </h1>
 
-Neste jogo seu objetivo é sair do labirinto, coletando tesouros com o menor número de movimentos possíveis.
+Neste jogo seu objetivo é encontrar a saída do labirinto, coletando os tesouros espalhados pelo caminho e tentando fazer o mínimo de movimentos possível.
 
-Este jogo é um trabalho prático do curso Projeto Desenvolve.
+Este jogo é um trabalho prático do curso de Python Intermediário do Projeto Desenvolve de Bom Despacho, feito pelo aluno Henrique Lelles Gontijo.
 
-## Como rodo o jogo?
 
-Simples, na pasta raiz do jogo no terminal digite python3 main.py "nome do labirinto".
+## Bibliotecas Externas
+   O jogo necessita de algumas bibliotecas externas para ser executado, sendo necessário baixá-las com o comando "pip". Antes de fazer isso é recomendável criar um ambiente virtual que conterá apenas as bibliotecas necessárias para fazer o jogo funcionar, a fim de evitar sejam instaladas no python globa e assim manter tudo mais organizado.
 
-Possuímos 3 labirintos a sua disposição, sendo eles labirinto_pequeno, labirinto_medio labirinto_grande.
+### Criando Ambiente Virtual
+   Utilizando o comando `cd` no terminal navegue até a pasta raíz do projeto (aventura_no_labirinto). Para criar o ambiente digite `python -m venv "nome_do_ambiente"` caso esteja no Windows, mas se seu sitema operacional for uma distribuição Unix use o comando `python3` no lugar de apenas `python`. Lembre-se de criar o ambiente na pasta raiz do projeto para ficar mais fácil de achá-lo depois.
 
-É importante que o terminal esteja em tela cheia para que a tela do jogo não fique quebrada.
+   Em seguida é necessário ativar o ambiente, para isso, digite `\"nome_do_ambiente"\Scripts\activate` caso esteja no Windows e `source "nome_do_ambiente"/bin/activate` para as distribuições Unix.
 
-### Bibliotecas Externas
+### Instalando Bibliotecas
+   Todas as bibliotecas estão listadas, com suas respectivas versões, no arquivo "requirements.txt", então (com o ambiente virtual ativado) digite `pip -r requirements.txt` e todas elas serão instaladas automaticamente.
 
-Há algumas bibliotecas externas necessárias para execução do jogo que estão listadas em requirements.txt, para baixá-las digite pip install -r requirements.txt
+## Rodando o Jogo
+   O jogo possui três labirintos inicialmente, sendo eles "labirinto_pequeno", "labirinto_medio" e "labirinto_grande". Para iniciar o jogo, é preciso digitar `python main.py` + nome do labirinto escolhido. Caso esteja utilizando um sitema operacional de distribuição Unix utilize `python3` ao invés de apenas `python`.
 
-## Interface de CLI
+   É importante ressaltar que o terminal deve ficar em tela cheia para evitar que a visualização fique quebrada.
+
+### Interface de CLI
 
 Através da interface de CLI você pode fazer várias mudanças como:
 
