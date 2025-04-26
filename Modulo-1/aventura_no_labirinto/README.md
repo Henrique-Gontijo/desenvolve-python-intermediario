@@ -16,6 +16,8 @@ Este jogo é um trabalho prático do curso de Python Intermediário do Projeto D
 ### Instalando Bibliotecas
    Todas as bibliotecas estão listadas, com suas respectivas versões, no arquivo "requirements.txt", então (com o ambiente virtual ativado) digite `pip -r requirements.txt` e todas elas serão instaladas automaticamente.
 
+<dr>
+
 ## Rodando o Jogo
    O jogo possui três labirintos inicialmente, sendo eles "labirinto_pequeno", "labirinto_medio" e "labirinto_grande". Para iniciar o jogo, é preciso digitar `python main.py` + nome do labirinto escolhido. Caso esteja utilizando um sitema operacional de distribuição Unix utilize `python3` ao invés de apenas `python`.
 
