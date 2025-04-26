@@ -23,11 +23,11 @@ Este jogo é um trabalho prático do curso de Python Intermediário do Projeto D
 
    É importante ressaltar que o terminal deve ficar em tela cheia para evitar que a visualização fique quebrada.
 
-### Interface de CLI
+## Interface de CLI
+Através da interface de CLI você pode fazer algumas mudanças em relação à execução do jogo:
 
-Através da interface de CLI você pode fazer várias mudanças como:
-
-    * Escolher labirinto
+###Escolher a cor principal do jogo
+   Na linha de comando de execução do jogo depois do nome do labirinto, se você adicionar ou `--color
     
     * Escolher seu personagem
     
