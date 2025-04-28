@@ -33,7 +33,7 @@ Através da interface de CLI você pode fazer algumas mudanças em relação à 
    Com `--player_color` mais o nome de umma cor em inglês é possível escolher a cor do seu personagem.
 
    #### Escolher personagem
-   Já com `--player` mais 1 ou três caracteres, você pode customizar o seu personagem.
+   Já com `--player` mais 1 ou 3 caracteres, você pode customizar o seu personagem.
 
    #### Ativar modo demonstração
    Usando o comando `--demonstration` sem nenhum parâmetro, é ativado o modo demonstração, onde o computador começa a jogar o jogo sozinho. Quando iniciado, para sair do modo demonstração use o comando `Ctrl + C` ou espere a máquina percorrer todo o labirinto.
