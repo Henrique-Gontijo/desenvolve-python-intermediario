@@ -26,14 +26,24 @@ Este jogo é um trabalho prático do curso de Python Intermediário do Projeto D
 ## Interface de CLI
 Através da interface de CLI você pode fazer algumas mudanças em relação à execução do jogo:
 
-###Escolher a cor principal do jogo
-   Na linha de comando de execução do jogo depois do nome do labirinto, se você adicionar ou `--color
+   #### Escolher a cor principal do jogo
+   Adicionando `--color` mais o nome de uma cor em inglês, tudo isso na linha de comando para executar o jogo, é possível mudar mudar a cor principal da interface do jogo.
     
-    * Escolher seu personagem
-    
-    * Trocar cor principal do jogo
-    
-    * Ativar modo demonstração
+   #### Escolher cor do seu personagem
+   Com `--player_color` mais o nome de umma cor em inglês é possível escolher a cor do seu personagem.
 
+   #### Escolher personagem
+   Já com `--player` mais 1 ou três caracteres, você pode customizar o seu personagem.
+
+   #### Ativar modo demonstração
+   Usando o comando `--demonstration` sem nenhum parâmetro, é ativado o modo demonstração, onde o computador começa a jogar o jogo sozinho. Quando iniciado, para sair do modo demonstração use o comando `Ctrl + C` ou espere a máquina percorrer todo o labirinto.
+    
+### Exemplos da interface CLI:
+   * `python main.py labirinto_medio --color blue`
+   * `python main.py labirinto_medio --player_color red`
+   * `python main.py labirinto_medio --player uwu`
+   * `python main.py labirinto_medio --demonstration`
+
+No caso dos comandos que definem cores de interface e personagem, clicando <a href="https://rich.readthedocs.io/en/stable/appendix/colors.html">aqui<a/> você verá uma lista de todas os nomes de cores que você pode colocar. Além dessa maneira, é possível escolher as cores através de código hexadecimal ou rgb como demonstrado a seguir: `python main.py labirinto_medio --color #ff0000 --player_color "rgb(255,215,0)"`
     
 Para obter detalhes digite python3 main.py -h
