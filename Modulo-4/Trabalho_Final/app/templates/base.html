@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ title }} - Microblog</title>
+    </head>
+    <body>
+        <div>Microblog:
+            <a href="/">Home</a>
+            <a href="/login">Login</a>
+        </div>
+        <hr>
+        <!-- O Jinja abaixo é para as funções flash -- Não sei usar -- -->
+        <!--{% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <ul class=flashes>
+                    {% for message in messages %}
+                        <li>{{ message }}</li>
+                    {% endfor %}
+                </ul>
+                <hr>
+            {% endif %}
+        {% endwith %}-->
+        {% block content%}{% endblock%}
+    </body>
+</html>
