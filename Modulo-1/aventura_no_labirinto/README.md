@@ -46,4 +46,4 @@ Através da interface de CLI você pode fazer algumas mudanças em relação à 
 
 No caso dos comandos que definem cores de interface e personagem, clicando <a href="https://rich.readthedocs.io/en/stable/appendix/colors.html" target="_blank">aqui<a/> você verá uma lista de todas os nomes de cores que você pode colocar. Além dessa maneira, é possível escolher as cores através de código hexadecimal ou rgb como demonstrado a seguir: `python main.py labirinto_medio --color #ff0000 --player_color "rgb(255,215,0)"`
     
-Para obter detalhes digite python3 main.py -h
+Para obter detalhes digite python3 main.py --help
