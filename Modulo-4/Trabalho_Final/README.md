@@ -1,7 +1,7 @@
 # Microblog
 Este é o trabalho final da disciplina de Python II. Consiste em basicamente um protótipo de rede social construído com Flask.
 
-## Instruções para testar o projeto
+## Antes de executar o projeto
 Antes de testar o site são necessárias algumas ações:
 
 ### Preparando ambiente
