@@ -1,6 +1,10 @@
+''' Módulo de __init__, responsável por importar os demais módulos e fazer configuração de ambiente '''
+
 import os
+import json
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
+from flask_login import LoginManager
 
 app = Flask(__name__)
 
@@ -10,6 +14,19 @@ db = SQLAlchemy()
 db.init_app(app) # Cria automaticamente uma pasta instance/ para o bannco
 ###################################################
 
+login = LoginManager(app)
+login.login_view = "login"
+## O login_view redireciona o usário, passando uma flash message, para a 
+# página de login quando esse tenta acessar páginas em que o login é
+# necessário sem fazer o login
+# Já as duas definições abaixo modificam a flash message exbida
+login.login_message = "Você precisa fazer login para acessar essa página."
+login.login_message_category = "error"
+
+with open("key.json", "r") as fp:
+    SECRET_KEY = json.load(fp)["secret_key"]
+
+app.config["SECRET_KEY"] = SECRET_KEY
 
 # A função básica do init do pacote é importar seus módulos (lembra?)
 # Para evitar import circular (já que routes import app)
