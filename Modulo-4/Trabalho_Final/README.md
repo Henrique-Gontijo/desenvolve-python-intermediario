@@ -22,4 +22,4 @@ Para o projeto funcionar você deve criar o arquivo key.json, o qual deve conter
 ## Executando o projeto
 Após ter terminado os passos anteriores, ainda na pasta raiz do projeto, digite `flask run microblog` e o terminal irá exibir o link da página em que o site estiver funcionando.
 
-Caso deseje encurtar o comando, crie o arquivo .flaskenv e nele escreva `FLASK_APP=microblog.py`. Desse modo será necessário apenas digitar `flask run`.
+Caso deseje encurtar o comando, crie o arquivo .flaskenv e nele escreva `FLASK_APP=microblog.py`. Desse modo será necessário digitar apenas `flask run`.
